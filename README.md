@@ -22,8 +22,6 @@
 
 1. Убедитесь, что у вас установлен Python 3.x
 2. Установите необходимые зависимости:
-
-bash
 pip install pygame
 
 ## 🎵 Звуковые эффекты
@@ -49,12 +47,12 @@ pip install pygame
 
 
 ## 📂 Структура проекта
+```plaintext
 snake/
-├── snake_game.py # Основной файл игры
-├── download_sounds.py # Скрипт для загрузки звуков
-├── sounds/ # Папка со звуками
-│ ├── bell.wav # Звук сбора букв
-│ ├── game_over.mp3 # Звук окончания игры
-│ └── jingle_bells.mp3 # Фоновая музыка
-└── README.md # Документация
-
+├── snake_game.py         # Основной файл игры
+├── download_sounds.py    # Скрипт для загрузки звуков
+├── sounds/               # Папка со звуками
+│   ├── bell.wav          # Звук сбора букв
+│   ├── game_over.mp3     # Звук окончания игры
+│   └── jingle_bells.mp3  # Фоновая музыка
+└── README.md             # Документация
